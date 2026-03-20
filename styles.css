@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(220, 200, 200);
+    font-family:'Courier New', Courier, monospace;
+    font-size:4.5rem;
+    text-align:center;
+}
+.heading{
+   color: #4a3f3f;
+   font-size:5.5rem;
+}
+.sub{
+    color:#6e4a4a;
+    font-family:'Courier New', Courier, monospace;
+}
+video, audio {
+  display: block;   /* make them behave like block elements rgb(245, 212, 226)*/
+  margin: 20px auto; /* center horizontally with auto margins */
+border-radius: 12px; /* optional, rounded corners for cuteness */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* soft shadow */}
+
+
+audio {
+  transform: scale(2.5); /* 1 = normal size, 1.5 = 150% bigger */
+   transform-origin: center; /* keeps it centered */
+   margin: 20px auto; 
+  display: block;  
+
+  
+}
+
+.toptext{
+ width: 60%; margin: 30px auto; /* center the box */ padding: 20px; background:rgb(210,185,185);}
+.midtext{
+  width:60%;
+  margin:30px auto;
+  padding:30px;
+  background: rgba(187, 125, 133, 0.74);
+}
+  
+  .video-box {
+  width: fit-content;          /* box wraps the video */
+  margin: 40px auto;
+  padding: 15px;
+  background: rgb(219, 183, 183);
+  border-radius: 16px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+
+.lastext{
+  width:60%;
+  margin:30px auto;
+  background-color:rgb(212, 175, 175);
+}
+
+.song{
+  width:20%;
+  margin:30px auto;
+  background-color:rgba(179, 115, 127, 0.658);
+  padding:100px;
+}
