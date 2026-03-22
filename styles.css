@@ -29,13 +29,18 @@ audio {
 }
 
 .toptext{
- width: 60%; margin: 30px auto; /* center the box */ padding: 20px; background:rgb(210,185,185);}
-.midtext{
+ width: 60%; margin: 30px auto; /* center the box */ padding: 20px; background:rgb(210,185,185);
+ border-radius:120px 20px/130px 20px;
+}
+
+ .midtext 
+ {
   width:60%;
   margin:30px auto;
   padding:30px;
   background: rgba(187, 125, 133, 0.74);
-}
+   border-radius:120px 20px/120px 20px;
+ }
   
   .video-box {
   width: fit-content;          /* box wraps the video */
@@ -44,6 +49,7 @@ audio {
   background: rgb(219, 183, 183);
   border-radius: 16px;
   box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  border-radius:120px 20px/120px 20px;
 }
 
 
@@ -51,6 +57,7 @@ audio {
   width:60%;
   margin:30px auto;
   background-color:rgb(212, 175, 175);
+   border-radius:120px 20px/120px 20px;
 }
 
 .song{
@@ -58,4 +65,5 @@ audio {
   margin:30px auto;
   background-color:rgba(179, 115, 127, 0.658);
   padding:100px;
+   border-radius:120px 20px/120px 20px;
 }
